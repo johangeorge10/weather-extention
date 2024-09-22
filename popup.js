@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const apiKey = '';  // Replace with your actual API key from open weather api which is a free to create and use
+    const apiKey = '3bf80b7555c851e43bd601a1188707c8';  // Replace with your actual API key from open weather api which is a free to create
     const city = 'thiruvalla';
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
     let temp=0;
